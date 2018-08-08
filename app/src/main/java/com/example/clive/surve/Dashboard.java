@@ -38,14 +38,6 @@ public class Dashboard extends AppCompatActivity implements MyOffers.OnFragmentI
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         titleText = findViewById(R.id.tool_title);
 
-        try {
-            Balance cachedBalance = Kin.getCachedBalance();
-            BigDecimal balanceVal = cachedBalance.getAmount();
-            balance_text = "Balance: "+balanceVal+" KIN";
-            titleText.setText(balance_text);
-        } catch (ClientException e) {
-            e.printStackTrace();
-        }
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
@@ -69,8 +61,7 @@ public class Dashboard extends AppCompatActivity implements MyOffers.OnFragmentI
 
             }
         });
-
-
+        
         // Add balance observer
         Observer<Balance> balanceObserver = new Observer<Balance>() {
             @Override
@@ -98,6 +89,19 @@ public class Dashboard extends AppCompatActivity implements MyOffers.OnFragmentI
     @Override
     public void onFragmentInteraction(Uri uri) {
 
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        try {
+            Balance cachedBalance = Kin.getCachedBalance();
+            BigDecimal balanceVal = cachedBalance.getAmount();
+            balance_text = "Balance: "+balanceVal+" KIN";
+            titleText.setText(balance_text);
+        } catch (ClientException e) {
+            e.printStackTrace();
+        }
     }
 
 
