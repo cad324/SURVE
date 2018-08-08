@@ -22,7 +22,7 @@ public class OfferActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        PollFish.initWith(this, new PollFish.ParamsBuilder("152ccd1f-1177-4c61-a9d4-8b529ddfb0f3").build());
+        PollFish.initWith(this, new PollFish.ParamsBuilder("SECRET_KEY").build());
         Toast.makeText(getApplicationContext(), "onResume called", Toast.LENGTH_SHORT).show();
     }
 }
