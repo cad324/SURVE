@@ -21,7 +21,7 @@ Naturally, many of the users of this program would be students - especially thos
 | Assess document | -250 to -500 |
 | Purchase of your document | % of revenue |
 
-These rewards amounts are only tentative and subject to change after consultation with Kin team and further analysis.
+These reward amounts are only tentative and subject to change after consultation with the Kin team and further analysis.
 
 ----
 
