@@ -4,9 +4,9 @@ ___
 
 ### Concept:
 
-Most students, researchers, and marketers face the challenge of motivating an audience to participate in questionnaires/surveys. It is difficult to obtain participation without providing a meaningful incentive. Luckily, SURVE offers an innovative solution to this issue thanks to kin coin cryptocurrency. With SURVE, qualified users would be given the opportunity to earn by completing surveys posted by the researchers. For users wanting to post surveys, they would have to spend proportionally (by brackets) to the number of respondents they desire.
+Most students, researchers, and marketers face the challenge of motivating an audience to participate in questionnaires/surveys. It is difficult to obtain participation without providing a meaningful incentive. Luckily, SURVE offers an innovative solution to this issue thanks to the Kin coin initiative. With SURVE, qualified users would be given the opportunity to earn by completing the surveys posted by the other SURVE users. For users wanting to post surveys, they would have to spend kin proportionally to the number of respondents they desire.
 
-Naturally, many of the users of this program would be students - especially those at the university level. And so, to complement the experience mentioned so far, users would also be able to earn by sharing useful documents such as past exams, notes and solutions to problems (where legal). Participants of this exchange would be required to spend kin, some of which would go to the uploader, to view the full document they want to see. These transactions provide easier access to information than other sites that charge students monthly fees to access critical documents.
+Given the nature of this app it is likely that many of the users of this program would be students - especially those at the university level. And so, to complement the experience mentioned so far, users would also be able to earn by sharing useful documents such as past exams, notes and solutions to problems (where legal). Consumers in this exchange would be required to spend kin, a percentage of which goes to the uploader, to view the full document they want to see. These transactions provide easier access to information than other sites that charge students monthly fees to access critical documents.
 
 ------------
 
