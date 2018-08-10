@@ -30,6 +30,8 @@ These reward amounts are only tentative and subject to change after consultation
 
  Now, will this app also make money? Absolutely. Using the Pollfish SDK, users would be given a limited number of short paid surveys - ideally once a day - that would be presented as a streak challenge. Users would be rewarded in kin for maintaining a streak of responding consistently to the short paid surveys provided by Pollfish. This is expected to encourage user retention while providing revenue for the SURVE development team. This revenue will go towards further promotion of the app, acquiring talent and continued motivation of the team.
 
+---
+
 ### The Future of SURVE:
 
 Among the plans for SURVE as the company grows, is the goal to reserve a warehouse such that we would reward users for donating their textbooks. Then we would post them as offers to other SURVE users at reasonable costs. We are confident that this initiative would be supported by many students, or people in any field for that matter, as it would save them large sums of money.
