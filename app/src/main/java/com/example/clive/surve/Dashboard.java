@@ -20,6 +20,8 @@ import com.kin.ecosystem.exception.ClientException;
 
 import java.math.BigDecimal;
 
+import kin.core.KinClient;
+
 public class Dashboard extends AppCompatActivity implements MyOffers.OnFragmentInteractionListener,
         Earn.OnFragmentInteractionListener, Spend.OnFragmentInteractionListener,
         Account.OnFragmentInteractionListener {
@@ -27,7 +29,6 @@ public class Dashboard extends AppCompatActivity implements MyOffers.OnFragmentI
     private String balance_text;
     public BigDecimal real_balance;
     TextView titleText;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +38,6 @@ public class Dashboard extends AppCompatActivity implements MyOffers.OnFragmentI
         getSupportActionBar().show();
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         titleText = findViewById(R.id.tool_title);
-
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
@@ -61,7 +61,7 @@ public class Dashboard extends AppCompatActivity implements MyOffers.OnFragmentI
 
             }
         });
-        
+
         // Add balance observer
         Observer<Balance> balanceObserver = new Observer<Balance>() {
             @Override
